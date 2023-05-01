@@ -1,5 +1,5 @@
 #!/bin/bash
-SOURCE_DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 function get_host_operating_system() {
     local UNAME_STRING="$(uname -a)"
@@ -20,11 +20,11 @@ function get_host_operating_system() {
 OS="$(get_host_operating_system)"
 
 if [[ "$OS" == "windows" ]]; then
-    CASTFFI_CONFIG_FILE_PATH="$SOURCE_DIRECTORY/config-windows.json"
+    CASTFFI_CONFIG_FILE_PATH="$DIRECTORY/config-windows.json"
 elif [[ "$OS" == "macos" ]]; then
-    CASTFFI_CONFIG_FILE_PATH="$SOURCE_DIRECTORY/config-macos.json"
+    CASTFFI_CONFIG_FILE_PATH="$DIRECTORY/config-macos.json"
 elif [[ "$OS" == "linux" ]]; then
-    CASTFFI_CONFIG_FILE_PATH="$SOURCE_DIRECTORY/config-linux.json"
+    CASTFFI_CONFIG_FILE_PATH="$DIRECTORY/config-linux.json"
 else
     echo "Error: Unknown operating system '$OS'" >&2
     exit 1

@@ -1,4 +1,4 @@
-name: "Commit generated C# code"
+name: "Commit generated code"
 
 on:
   workflow_call:
@@ -8,9 +8,9 @@ permissions: write-all
 jobs:
 
   commit-job:
-    name: "Commit generated C# code"
+    name: "Commit generated code"
     runs-on: ubuntu-latest
-    if: github.actor == 'dependabot[bot]' || github.actor == 'lithiumtoast' || github.actor == 'BlackPhoenix134'
+    if: github.actor == 'dependabot[bot]' || github.actor == 'lithiumtoast' || github.triggering_actor == 'lithiumtoast'
 
     steps:
       - name: "Clone Git repository"
