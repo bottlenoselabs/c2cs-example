@@ -1,0 +1,23 @@
+# JetBrains
+/.idea/
+
+# VisualStudio
+.suo
+.vs/
+
+# Code build artifacts
+bin/
+obj/
+
+# NuGet packages
+/nupkg/
+
+# Native libraries
+/lib/
+
+# C2CS
+/bindgen/ast/
+/bindgen/x-ast/
+
+# macOS
+.DS_store

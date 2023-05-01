@@ -1,0 +1,6 @@
+{
+  "inputFilePath": "./x-ast/ast-cross-platform.json",
+  "outputFilePath": "./../src/cs/production/HelloWorld/helloworld.gen.cs",
+  "namespaceName": "HelloWorld",
+  "className": "helloworld"
+}

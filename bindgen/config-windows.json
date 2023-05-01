@@ -1,0 +1,10 @@
+{
+  "inputFilePath": "./../src/c/production/helloworld/include/helloworld.h",
+  "userIncludeDirectories": [
+    "./../src/c/production/helloworld/include"
+  ],
+  "platforms": {
+    "x86_64-pc-windows-msvc": {},
+    "aarch64-pc-windows-msvc": {}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "inputFilePath": "./../src/c/production/helloworld/include/helloworld.h",
+  "userIncludeDirectories": [
+    "./../src/c/production/helloworld/include"
+  ],
+  "platforms": {
+    "x86_64-unknown-linux-gnu": {},
+    "aarch64-unknown-linux-gnu": {}
+  }
+}

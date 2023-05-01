@@ -1,0 +1,10 @@
+{
+  "inputFilePath": "./../src/c/production/helloworld/include/helloworld.h",
+  "userIncludeDirectories": [
+    "./../src/c/production/helloworld/include"
+  ],
+  "platforms": {
+    "aarch64-apple-darwin": {},
+    "x86_64-apple-darwin": {}
+  }
+}
