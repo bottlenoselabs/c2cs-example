@@ -82,5 +82,5 @@ jobs:
           path: "./src/cs/production/HelloWorld/"
 
       - name: ".NET Build"
-        run: dotnet build
+        run: dotnet build "./src/cs"
           
